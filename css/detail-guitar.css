@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    background-color: #ffffff;
+}
+
+:root {
+    --warna-hijau: #2AD7A8;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 20px 60px;
+    z-index: 100000;
+    background: transparent;
+}
+
+.navbar .navbar-brand {
+    color: var(--warna-coklat);
+    font-size: 30px;
+    font-family: 'Alegreya';
+    letter-spacing: 1px;
+}
+
+.navbar .logofoto {
+    width: 104px;
+    height: 64px;
+}
+
+nav .container-fluid .navbar-collapse .navbar-nav {
+    margin: auto;
+    gap: 20px;
+}
+
+nav .container-fluid .navbar-collapse .navbar-nav li a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+nav .container-fluid .navbar-collapse .navbar-nav li a:hover {
+    transition: 0.3s;
+    color: #ECC179;
+}
+
+nav.sticky {
+    padding: 0px 60px;
+    background-color: white;
+}
+
+nav.sticky .btn-nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #2AD7A8;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 2px solid #2AD7A8;
+}
+
+nav .user {
+    display: flex;
+}
+
+nav .user p {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+nav .user .foto .gambartegar {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+nav .btn-nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #ECC179;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    transition: 0.3s;
+    border: 2px solid #ECC179;
+}
+
+nav .btn-nav a:hover {
+    transition: 0.3s;
+    background-color: transparent;
+    border: 2px solid #ECC179;
+    color: #ECC179;
+
+}
+
+/* ========== CONTENT HOME ==========*/
+.container .content {
+    display: flex;
+}
+.container .content .left {
+    padding-top: 150px;
+    
+}
+
+.container .content .left .title {
+    line-height: 5px;
+}
+
+.container .content .left .title p {
+    color: #A2A2A2;
+}
+
+.container .content .center {
+    width: 90%;
+}
+
+.container .content .center .konten-center {
+    margin-top: 160px;
+    display: block;
+}
+
+.container .content .center .konten-center .wrapper-card {
+    margin-left: 25%;
+    margin-top: 80px;
+}
+
+.container .content .center .konten-center .wrapper-card img {
+    width: 320px;
+}
+
+.container .content .center .konten-center .wrapper-card p {
+    color: #A2A2A2;
+    font-size: 14px;
+}
+
+.container .content .right {
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .content .right img{
+    margin-top: 160px;
+}
+
+/* ========== CONTENT HOME 8 ==========*/
+.container .content-8 {
+   display: flex;
+}
+
+.container .content-8 .wrapper1 {
+    margin-top: 60px;
+}
+
+.container .content-8 .wrapper2 {
+    margin-top: 60px;
+}
+
+.container .footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.container .content-8 .wrapper1 {
+    color: white;
+}
+
+.container .content-8 .wrapper1 p {
+    opacity: 80%;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.container .content-8 .wrapper1 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.container .content-8 .wrapper1 .fotoback {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.container .content-8 .wrapper1 .icon {
+    margin-top: 40px;
+}
+
+.container .content-8 .wrapper1 .icon img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.container .content-8 .wrapper1 .icon p {
+    margin-top: 20px;
+}
+
+.container .content-8 .wrapper2 {
+    margin-left: 60px;
+    color: white;
+}
+
+.container .content-8 .wrapper2 .description {
+    display: flex;
+}
+
+.container .content-8 .wrapper2 .description .card1 .title h3 {
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+
+.container .content-8 .wrapper2 .description .card1 .title .line {
+    width: 60%;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: #2AD7A8;
+}
+
+.container .content-8 .wrapper2 .description .card1 {
+    margin-left: 40px;
+}
+
+.container .content-8 .wrapper2 .description .card1 .paragraf {
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    opacity: 80%;
+}
+
+.container .content-8 .wrapper2 .description .card1 .paragraf p {
+    margin-top: 40px;
+}
+
+
+
+
+/* ANIMATION */
+@media screen and (max-width: 900px) {
+    .container .wrapper .carousel img {
+        width: calc(100%/ 2);
+    }   
+}
+
+@media screen and (max-width: 550px) {
+    .container .wrapper .carousel img {
+        width: 100%;
+    }   
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    background-color: #ffffff;
+}
+
+:root {
+    --warna-hijau: #2AD7A8;
+}
+
+.wrapper {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.wrapper .content1 {
+    width: 35%;
+    height: 850px;
+    background: linear-gradient(#85FFDE, #2AD7A8, #317E69);
+}
+
+.wrapper .content1 .text {
+    padding: 30px 30px;
+}
+
+.wrapper .content1 .foto-logo {
+    width: 20%;
+}
+
+.wrapper .content1 .foto-bg {
+    width: 30%;
+    height: 520px;
+    margin-top: -2px;
+    margin-left: -310px;
+    position: absolute;
+}
+
+.wrapper .content1 h1 {
+    font-size: 50px;
+    margin-top: 60px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.wrapper .content1 span {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.wrapper .content2 {
+    height: 850px;
+    width: 65%;
+    background-color: #F5F2EA;
+    
+}
+
+.wrapper .content2 .wrapper-content {
+    justify-content: center;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.wrapper .content2 .card {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 150px;
+    box-shadow: 2px 0px 20px 2px #d0d0d0;
+    align-items: center;
+}
+
+.wrapper .content2 .card img {
+    width: 90px;
+    margin-top: -40px;
+}
+
+.wrapper .content2 .card .forum {
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.wrapper .content2 .card .forum h5 {
+    font-size: 16px;
+}
+
+.wrapper .content2 .card .forum input {
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 14px;
+    width: 400px;
+    padding-left: 20px;
+    background-color: #DDDDDD;
+}
+
+.wrapper .content2 .card .forum p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.wrapper .content2 .card button {
+    padding: 8px 14px;
+    background-color: #2AD7A8;
+    color: white;
+    margin-top: 10px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ANIMATION */
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatImage2 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
